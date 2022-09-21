@@ -18,3 +18,6 @@ clean veryclean:
 
 runPrograme:
 	./$(FILE)
+
+zip:
+	zip cviceni1.zip $(FILE).c
